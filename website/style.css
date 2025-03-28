@@ -1,0 +1,67 @@
+/* Body and overall container styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  img.transparent {
+    mix-blend-mode: multiply;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  main {
+    text-align: left;
+  }
+  
+  .content-section {
+    display: none;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+    margin: 0 auto;    
+    max-width: 800px;
+  }
+  
+  .content-section:last-of-type {
+    border: none;
+  }
+  
+  .music-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .music-links li {
+    margin: 10px 0;
+  }
+  
